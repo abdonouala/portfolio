@@ -106,7 +106,7 @@ header .nav-bar{
     margin-bottom: 2rem;
 }
 .home-center a{
-    background: var(--fifth);
+    background-color: #196ad4;
     padding: 1rem;
     border-radius: 10px;
     color: white;
@@ -169,7 +169,7 @@ header .nav-bar{
     margin-bottom: 2rem;
 }
 .right-side a{
-    background: var(--third-color);
+    background-color: #196ad4;
     color: white;
     padding: 1rem;
     border-radius: 20px;
@@ -362,13 +362,9 @@ header .nav-bar{
     font-size: 1.5rem;
     font-weight: bolder;
 }
-.sr1{
-    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(../images/responsive-design-mockup.jpg);
-    background-position: center;
-    background-size: cover;
-}
+
 .sr2{
-    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/capture.PNG);
+    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/Capture.PNG);
     background-position: center;
     background-size: cover;
 }
