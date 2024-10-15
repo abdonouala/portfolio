@@ -335,12 +335,12 @@ header .nav-bar{
 .services{
     display: grid;
     grid-template-columns: repeat(4 ,1fr);
-    
-    gap: 3rem;
+    margin: 0 10px;
+    gap: 2rem;
 }
 .service{
-    width: 20rem;
-    height: 20rem;
+    width: 19rem;
+    height: 19rem;
     border: 2px solid var(--second-color);
     display: flex;
     flex-direction: column;
@@ -363,24 +363,24 @@ header .nav-bar{
     font-weight: bolder;
 }
 
+.sr1{
+    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/10168.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .sr2{
-    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/Capture.PNG);
+    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/Cap.jpg);
     background-position: center;
     background-size: cover;
 }
 .sr3{
-    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/Cap.PNG);
-    background-position: center;
-    background-size: cover;
-}
-.sr4{
-    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/cruds.PNG);
+    background: url(./img/cruds.jpg), linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6));
     background-position: center;
     background-size: cover;
 }
 
-.sr6{
-    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/img1.PNG);
+.sr4{
+    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/img1.jpg);
     background-position: center;
     background-size: cover;
 }
