@@ -364,23 +364,24 @@ header .nav-bar{
 }
 
 .sr1{
-    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/10168.jpg);
+    background: linear-gradient(to right, rgba(15, 32, 39, 0.9), rgba(44, 83, 100, 0.6)), url("../img/10168.jpg");
+
     background-position: center;
     background-size: cover;
 }
 .sr2{
-    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/Cap.jpg);
+    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url("../img/Cap.jpg");
     background-position: center;
     background-size: cover;
 }
 .sr3{
-    background: url(./img/cruds.jpg), linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6));
+    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url("../img/cruds1.jpg") ;
     background-position: center;
     background-size: cover;
 }
 
 .sr4{
-    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url(./img/img1.jpg);
+    background: linear-gradient(to right, rgba(15, 32, 39, 0.9),rgba(44, 83, 100, 0.6)), url("../img/img1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -559,3 +560,108 @@ header .nav-bar{
         align-items: center;
     }
 }
+@media only screen and (max-width: 500px) {
+    .nav-bar .nav .list{
+        position: absolute;
+        top: -385%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        gap: 0.5rem;
+       
+        width: 100vh;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .5s ease-in-out;
+        background: linear-gradient(#0f0c29,#302b63,#24243e);
+    }
+    .nav-bar .nav .list ul li a{
+        font-size: 0.9rem; /* Slightly smaller for better fit */
+    }
+    .nav-bar .logo-png{
+        width: 80px; /* Reduced logo size for smaller screens */
+    }
+    .menu{
+        display: block;
+        color: white;
+        font-size: 4rem; /* Reduced font size for the menu icon */
+    }
+    .home .home-center h1{
+        font-size: 40px; /* Adjusted heading size */
+        font-weight: 600;
+    }
+    .nav-bar .nav .list a{
+        font-size: 3rem; /* Smaller text for menu items */
+    }
+    .nav-bar .nav .show{
+        left: -150%;
+    }
+    .about-center{
+        flex-direction: column;
+    }
+    .section-title{
+        margin-bottom: 2rem;
+    }
+    .right-side{
+        padding-left: 1rem;
+        padding-right: 1rem; /* Reduced padding */
+    }
+    .awards h1{
+        font-size: 2rem; /* Smaller heading for awards section */
+        font-weight: bolder;
+    }
+    .awards h4{
+        font-weight: 100;
+        font-size: 1.5rem; /* Adjusted subheading size */
+    }
+    .skills h5{
+        font-weight: bolder;
+    }
+    .skill{
+        flex-direction: column;
+        margin-bottom: 1rem;
+        gap: 4rem; /* Slightly reduced gap */
+    }
+    .bar{
+        height: 3px; /* Reduced bar height */
+    }
+    .bar span{
+        height: 3px;
+    }
+    .section-title{
+        width: 100%;
+    }
+    .section-title h5{
+        font-size: 2.5rem; /* Adjusted section title size */
+    }
+    .content{
+        width: 85%; /* Slightly narrower content for smaller screens */
+        height: 25rem; /* Reduced height for better fit */
+    }
+    .content i{
+        font-size: 3.5rem;
+        color: var(--third-color);
+    }
+    .content .slide{
+        padding-right: 1.5rem;
+        padding-left: 0.5rem;
+    }
+    .services{
+        grid-template-columns: 1fr; /* One column for better readability */
+    }
+    .contact{
+        flex-direction: column;
+        height: 20rem; /* Reduced height */
+        justify-content: center;
+        align-items: center;
+    }
+    .contact h4{
+        font-size: 1.2rem; /* Adjusted font size */
+    }
+    .contact-right{
+        align-items: center;
+    }
+}
+
